@@ -1,0 +1,11 @@
+test_front:
+    resource: "@TestFrontBundle/Resources/config/routing.yml"
+    prefix:   /
+
+test_back:
+    resource: "@TestBackBundle/Resources/config/routing.yml"
+    prefix:   /back
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation
